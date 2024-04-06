@@ -1,0 +1,191 @@
+Sat Mar 25 03:00:47 2023    ./matching/matching.prof
+
+         82278 function calls in 9.543 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1205    9.488    0.008    9.488    0.008 {method 'put_disk' of 'strategy.minmaxcalc.MinmaxC' objects}
+    38080    0.010    0.000    0.010    0.000 {built-in method builtins.pow}
+     1844    0.009    0.000    9.522    0.005 {method 'process_game' of 'bitboard.bitothello.OthelloGameC' objects}
+      595    0.009    0.000    0.020    0.000 random.py:11(put_disk)
+       54    0.004    0.000    0.004    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+     1800    0.002    0.000    9.511    0.005 strategy.py:43(selecter)
+       30    0.002    0.000    9.524    0.317 matching_ts.py:33(set_match)
+     1844    0.001    0.000    0.002    0.000 __init__.py:1424(debug)
+     1874    0.001    0.000    0.001    0.000 __init__.py:1689(isEnabledFor)
+     1020    0.001    0.000    0.001    0.000 mathematics.py:64(__truediv__)
+      595    0.001    0.000    0.001    0.000 random.py:237(_randbelow_with_getrandbits)
+      595    0.001    0.000    0.002    0.000 random.py:343(choice)
+       30    0.001    0.000    0.010    0.000 __init__.py:433(rate)
+      360    0.001    0.000    0.002    0.000 factorgraph.py:47(update_message)
+      240    0.001    0.000    0.002    0.000 factorgraph.py:160(update)
+     3712    0.001    0.000    0.001    0.000 utils.py:330(<genexpr>)
+     4903    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+     2670    0.000    0.000    0.000    0.000 mathematics.py:39(__init__)
+      480    0.000    0.000    0.001    0.000 factorgraph.py:41(delta)
+      240    0.000    0.000    0.001    0.000 factorgraph.py:72(__init__)
+       30    0.000    0.000    0.008    0.000 __init__.py:379(run_schedule)
+      480    0.000    0.000    0.000    0.000 mathematics.py:60(__mul__)
+       11    0.000    0.000    0.001    0.000 std.py:355(format_meter)
+      120    0.000    0.000    0.001    0.000 factorgraph.py:52(update_value)
+      123    0.000    0.000    0.001    0.000 {built-in method builtins.sum}
+      120    0.000    0.000    0.001    0.000 factorgraph.py:144(up)
+       60    0.000    0.000    0.001    0.000 factorgraph.py:101(down)
+     3679    0.000    0.000    0.000    0.000 {built-in method unicodedata.east_asian_width}
+       60    0.000    0.000    0.001    0.000 factorgraph.py:189(up)
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+      210    0.000    0.000    0.000    0.000 factorgraph.py:32(__init__)
+      120    0.000    0.000    0.000    0.000 strategy.py:27(set_strategy)
+      480    0.000    0.000    0.001    0.000 factorgraph.py:36(set)
+       30    0.000    0.000    0.001    0.000 __init__.py:306(factor_graph_builders)
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+     1423    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      220    0.000    0.000    0.000    0.000 backends.py:56(erfc)
+        1    0.000    0.000    9.543    9.543 matching_ts.py:129(runby1)
+       88    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+      160    0.000    0.000    0.000    0.000 backends.py:75(pdf)
+       30    0.000    0.000    0.000    0.000 backends.py:26(erfcinv)
+      595    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
+     1136    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+      900    0.000    0.000    0.000    0.000 factorgraph.py:61(__setitem__)
+       60    0.000    0.000    0.002    0.000 __init__.py:389(<listcomp>)
+       30    0.000    0.000    0.000    0.000 __init__.py:242(validate_rating_groups)
+      562    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+      120    0.000    0.000    0.001    0.000 factorgraph.py:139(down)
+     1543    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+      913    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
+       30    0.000    0.000    0.010    0.000 __init__.py:617(rate_1vs1)
+       15    0.000    0.000    0.004    0.000 std.py:1212(update)
+     1020    0.000    0.000    0.000    0.000 factorgraph.py:58(__getitem__)
+       60    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       55    0.000    0.000    0.004    0.000 ansitowin32.py:201(write_plain_text)
+       55    0.000    0.000    0.004    0.000 ansitowin32.py:185(write_and_convert)
+       90    0.000    0.000    0.000    0.000 __init__.py:340(build_perf_layer)
+       60    0.000    0.000    0.001    0.000 __init__.py:357(build_trunc_layer)
+       60    0.000    0.000    0.000    0.000 __init__.py:113(__init__)
+       90    0.000    0.000    0.000    0.000 factorgraph.py:133(__init__)
+       60    0.000    0.000    0.000    0.000 factorgraph.py:118(down)
+      160    0.000    0.000    0.000    0.000 backends.py:70(cdf)
+      126    0.000    0.000    0.000    0.000 mathematics.py:55(sigma)
+       55    0.000    0.000    0.000    0.000 ansitowin32.py:253(convert_osc)
+       90    0.000    0.000    0.000    0.000 __init__.py:343(build_team_perf_layer)
+       60    0.000    0.000    0.000    0.000 {method 'change_strategy' of 'bitboard.bitothello.OthelloGameC' objects}
+       12    0.000    0.000    0.000    0.000 std.py:104(acquire)
+      486    0.000    0.000    0.000    0.000 mathematics.py:50(mu)
+      300    0.000    0.000    0.000    0.000 factorgraph.py:83(var)
+       30    0.000    0.000    0.010    0.000 trueskill_.py:26(update_rating)
+       60    0.000    0.000    0.000    0.000 __init__.py:84(_team_sizes)
+       60    0.000    0.000    0.000    0.000 strategy.py:22(__init__)
+       11    0.000    0.000    0.000    0.000 std.py:1460(format_dict)
+      100    0.000    0.000    0.000    0.000 __init__.py:205(v_win)
+       30    0.000    0.000    0.000    0.000 {method 'load_strategy' of 'bitboard.bitothello.OthelloGameC' objects}
+       90    0.000    0.000    0.000    0.000 __init__.py:337(build_rating_layer)
+       60    0.000    0.000    0.000    0.000 factorgraph.py:124(up)
+       60    0.000    0.000    0.000    0.000 std.py:233(__call__)
+       33    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+       60    0.000    0.000    0.000    0.000 factorgraph.py:96(__init__)
+       15    0.000    0.000    9.524    0.635 matching_ts.py:46(matching)
+      110    0.000    0.000    0.000    0.000 {method 'finditer' of 're.Pattern' objects}
+      120    0.000    0.000    0.000    0.000 factorgraph.py:141(<listcomp>)
+       11    0.000    0.000    0.002    0.000 std.py:1164(__str__)
+       30    0.000    0.000    0.000    0.000 __init__.py:331(<listcomp>)
+       11    0.000    0.000    0.000    0.000 {built-in method now}
+      440    0.000    0.000    0.000    0.000 {built-in method math.exp}
+       11    0.000    0.000    0.004    0.000 std.py:1478(display)
+        7    0.000    0.000    0.003    0.000 {built-in method builtins.print}
+       55    0.000    0.000    0.004    0.000 ansitowin32.py:168(write)
+       30    0.000    0.000    0.000    0.000 __init__.py:70(calc_draw_margin)
+       60    0.000    0.000    0.002    0.000 __init__.py:388(build)
+       60    0.000    0.000    0.000    0.000 factorgraph.py:109(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method _pickle.dump}
+       65    0.000    0.000    0.000    0.000 {method 'flush' of '_io.TextIOWrapper' objects}
+      120    0.000    0.000    0.000    0.000 factorgraph.py:157(<listcomp>)
+       22    0.000    0.000    0.000    0.000 utils.py:222(_is_ascii)
+       11    0.000    0.000    0.002    0.000 std.py:342(fp_write)
+       10    0.000    0.000    0.004    0.000 std.py:1339(refresh)
+       60    0.000    0.000    0.000    0.000 __init__.py:353(build_team_diff_layer)
+      173    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       55    0.000    0.000    0.004    0.000 ansitowin32.py:46(write)
+       22    0.000    0.000    0.000    0.000 std.py:288(format_interval)
+      120    0.000    0.000    0.000    0.000 factorgraph.py:115(calc_a)
+        1    0.000    0.000    9.543    9.543 {built-in method builtins.exec}
+       33    0.000    0.000    0.001    0.000 utils.py:333(disp_len)
+       11    0.000    0.000    0.000    0.000 std.py:188(__format__)
+       50    0.000    0.000    0.000    0.000 __init__.py:221(w_win)
+       30    0.000    0.000    0.000    0.000 factorgraph.py:183(__init__)
+       30    0.000    0.000    0.000    0.000 __init__.py:292(validate_weights)
+       30    0.000    0.000    0.000    0.000 __init__.py:294(<listcomp>)
+       12    0.000    0.000    0.000    0.000 {method 'acquire' of '_multiprocessing.SemLock' objects}
+       12    0.000    0.000    0.000    0.000 std.py:108(release)
+       20    0.000    0.000    0.000    0.000 __init__.py:213(v_draw)
+       30    0.000    0.000    0.000    0.000 backends.py:50(ppf)
+      120    0.000    0.000    0.000    0.000 __init__.py:493(<genexpr>)
+       33    0.000    0.000    0.001    0.000 utils.py:329(_text_width)
+       30    0.000    0.000    0.000    0.000 __init__.py:1436(info)
+        1    0.000    0.000    0.002    0.002 trueskill_.py:48(printer)
+       24    0.000    0.000    0.002    0.000 utils.py:143(inner)
+       11    0.000    0.000    0.000    0.000 std.py:155(__init__)
+       11    0.000    0.000    0.002    0.000 std.py:348(print_status)
+       30    0.000    0.000    0.000    0.000 __init__.py:332(<listcomp>)
+        1    0.000    0.000    0.000    0.000 copyreg.py:103(_slotnames)
+       30    0.000    0.000    0.000    0.000 __init__.py:663(global_env)
+       30    0.000    0.000    0.000    0.000 __init__.py:333(<listcomp>)
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+       10    0.000    0.000    0.000    0.000 __init__.py:232(w_draw)
+       30    0.000    0.000    0.000    0.000 {built-in method math.log}
+      231    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+       36    0.000    0.000    0.000    0.000 {built-in method time.time}
+       30    0.000    0.000    0.000    0.000 {method 'auto_mode' of 'bitboard.bitothello.OthelloGameC' objects}
+       12    0.000    0.000    0.000    0.000 {method 'release' of '_multiprocessing.SemLock' objects}
+       30    0.000    0.000    0.000    0.000 __init__.py:334(<listcomp>)
+       90    0.000    0.000    0.000    0.000 __init__.py:508(<genexpr>)
+       60    0.000    0.000    0.000    0.000 {method 'return_turn' of 'bitboard.bitothello.OthelloGameC' objects}
+       80    0.000    0.000    0.000    0.000 random.py:8(__init__)
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+       11    0.000    0.000    0.000    0.000 utils.py:341(disp_trim)
+       60    0.000    0.000    0.000    0.000 __init__.py:485(<lambda>)
+        1    0.000    0.000    0.000    0.000 trueskill_.py:22(save_rating)
+       14    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 std.py:1279(close)
+       60    0.000    0.000    0.000    0.000 __init__.py:507(<lambda>)
+        1    0.000    0.000    0.000    0.000 std.py:583(_decr_instances)
+       60    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       55    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+        1    0.000    0.000    0.000    0.000 __init__.py:177(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       30    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
+       30    0.000    0.000    0.000    0.000 __init__.py:511(<listcomp>)
+       11    0.000    0.000    0.000    0.000 utils.py:57(__init__)
+       30    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+       11    0.000    0.000    0.000    0.000 utils.py:61(__format__)
+       14    0.000    0.000    0.000    0.000 {method 'release' of '_thread.RLock' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:218(_acquireLock)
+       11    0.000    0.000    0.000    0.000 std.py:169(colour)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:53(_commit_removals)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:111(remove)
+        2    0.000    0.000    0.000    0.000 {method 'remove' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:63(__iter__)
+        2    0.000    0.000    0.000    0.000 std.py:1300(fp_write)
+        2    0.000    0.000    0.000    0.000 __init__.py:1675(getEffectiveLevel)
+       11    0.000    0.000    0.000    0.000 std.py:165(colour)
+        1    0.000    0.000    0.000    0.000 __init__.py:673(setup)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:21(__enter__)
+        2    0.000    0.000    0.000    0.000 std.py:1167(_comparable)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:27(__exit__)
+        1    0.000    0.000    9.543    9.543 <string>:1(<module>)
+        2    0.000    0.000    0.000    0.000 std.py:112(__enter__)
+        1    0.000    0.000    0.000    0.000 utils.py:74(__eq__)
+        1    0.000    0.000    0.000    0.000 std.py:1171(__hash__)
+        2    0.000    0.000    0.000    0.000 __init__.py:227(_releaseLock)
+        2    0.000    0.000    0.000    0.000 std.py:115(__exit__)
+        1    0.000    0.000    0.000    0.000 _weakrefset.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 __init__.py:1276(disable)
+        1    0.000    0.000    0.000    0.000 backends.py:84(choose_backend)
+        1    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.000    0.000 std.py:1315(<lambda>)

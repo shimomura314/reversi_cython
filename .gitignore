@@ -1,0 +1,7 @@
+*.pkl
+*.prof
+__pycache__
+/build
+/dist
+/strategy/QL_dict/*
+game.spec
